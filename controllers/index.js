@@ -10,4 +10,8 @@ module.exports = class Controller {
   static getAll(req, res) {
     res.send("ok");
   }
+
+  static update(req, res) {
+    res.send("ok");
+  }
 };
