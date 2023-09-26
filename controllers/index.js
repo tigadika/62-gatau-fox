@@ -6,4 +6,8 @@ module.exports = class Controller {
   static login(req, res) {
     res.send("ok");
   }
+
+  static getAll(req, res) {
+    res.send("ok");
+  }
 };
